@@ -1,0 +1,11 @@
+{
+  "team": [
+    {
+      "id": "eef9",
+      "name": "Anarkoli",
+      "skill": "Django",
+      "age": "44",
+      "photo": "https://res.cloudinary.com/dhcftpm1r/image/upload/v1734537903/mt2ql3oieuul4xzye1od.webp"
+    }
+  ]
+}
