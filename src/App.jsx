@@ -1,19 +1,19 @@
 import { useDispatch } from "react-redux";
 import "./App.css";
-import Team from "./components/team/Team";
+import Student from "./components/student/Student";
 import { useEffect } from "react";
-import { getAllTeam } from "./app/features/team/teamApiSlice";
+import { getStudents } from "./app/features/student/studentApiSlice";
 
 function App() {
   const dispatch = useDispatch();
 
   useEffect(() => {
-    dispatch(getAllTeam());
+    dispatch(getStudents());
   }, [dispatch]);
 
   return (
     <div className="w-[1000px] mx-auto mt-[100px]">
-      <Team />
+      <Student />
     </div>
   );
 }

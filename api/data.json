@@ -1,11 +1,20 @@
 {
-  "team": [
+  "students": [
     {
-      "id": "eef9",
-      "name": "Anarkoli",
-      "skill": "Django",
-      "age": "44",
-      "photo": "https://res.cloudinary.com/dhcftpm1r/image/upload/v1734537903/mt2ql3oieuul4xzye1od.webp"
+      "id": "0364",
+      "name": "Asraful Haque Khan",
+      "skill": "Laravel",
+      "age": "12",
+      "location": "Badda",
+      "photo": "https://res.cloudinary.com/dhcftpm1r/image/upload/v1735488508/ymu3l1bks87p71psdnml.jpg"
+    },
+    {
+      "id": "0f4f",
+      "name": "Anarkoli ",
+      "skill": "Laravel",
+      "age": "12",
+      "location": "Gulshan",
+      "photo": "https://res.cloudinary.com/dhcftpm1r/image/upload/v1735488577/fyl1njp1vbsdqymi9tsg.jpg"
     }
   ]
 }

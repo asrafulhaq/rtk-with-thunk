@@ -2,6 +2,7 @@ import { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { createTeam, deleteTeam } from "../../app/features/team/teamApiSlice";
 import { cloudImgUpload } from "../../helpers/cloudinary";
+import CloudinaryImageUpload from "haq-cloudinary";
 
 const Team = () => {
   const dispatch = useDispatch();
@@ -23,7 +24,13 @@ const Team = () => {
   const handleCreateTeam = async (e) => {
     e.preventDefault();
 
-    const fileData = await cloudImgUpload({
+    // const fileData = await cloudImgUpload({
+    //   file: file,
+    //   preset: "wq5ab9dj",
+    //   cloudName: "dhcftpm1r",
+    // });
+
+    const fileData = await CloudinaryImageUpload({
       file: file,
       preset: "wq5ab9dj",
       cloudName: "dhcftpm1r",
