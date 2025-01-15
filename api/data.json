@@ -15,6 +15,14 @@
       "age": "12",
       "location": "Gulshan",
       "photo": "https://res.cloudinary.com/dhcftpm1r/image/upload/v1735488577/fyl1njp1vbsdqymi9tsg.jpg"
+    },
+    {
+      "id": "8c0d",
+      "name": "Nayeem",
+      "skill": "Laravel",
+      "age": "10",
+      "location": "Badda",
+      "photo": "https://res.cloudinary.com/dhcftpm1r/image/upload/v1736954717/jokngf2fxwgizqv5uezi.webp"
     }
   ]
 }

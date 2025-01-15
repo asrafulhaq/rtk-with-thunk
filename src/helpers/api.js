@@ -2,7 +2,7 @@ import axios from "axios";
 
 // create API
 const API = axios.create({
-  baseURL: "http://localhost:5050",
+  baseURL: "https://devzone-rest-apis.onrender.com",
   timeout: "20000",
   withCredentials: false,
 });
